@@ -8,7 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+//this is a new comment
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
